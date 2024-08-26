@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            background-color: black;
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .formpage{
+            margin-top: 50px;
+            background-color: gray;
+            text-align: center;
+            width: 60%;
+            height: 400px;
+            margin-left: 20%;
+            padding-top: 50px;
+            
+        }
+        form{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        form label{
+            padding-top: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+            padding-right: 20%;
+        }
+        input[type=submit]{
+            margin-right: 38%;
+            background-color: orange;
+            color: black;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 20px;
+        }
+        input{
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login Page</h1>
+
+    <div class="formpage">
+        <form action="" method="get">
+            <label for="email">Email ID:</label><br>
+            <input type="email" name="emailid" id="emailid" size="30px" required placeholder="abc@gmail.com"><br><br><br>
+            <label for="pass">Password :</label><br>
+            <input type="password" name="password" id="password" size="30px" required minlength="8" placeholder="XXXXXXXX"><br><br><br>
+
+            <a href="https://support.google.com/mail/answer/41078?hl=en&co=GENIE.Platform%3DDesktop" target="_blank">forgot password</a>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+</body>
+</html>

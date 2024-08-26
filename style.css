@@ -1,0 +1,366 @@
+.first_line {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.head-tab {
+    display: flex;
+    flex-direction: row;
+    color: pink;
+    text-align: center;
+    padding-top: 15px;
+}
+
+img {
+    margin-right: 25px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+h1 {
+    margin-right: 35px;
+    margin-left: 25px;
+    color: rgb(54, 22, 43);
+}
+
+a {
+    margin-top: 13px;
+    margin-right: 20px;
+    margin-left: 90px;
+    text-decoration: none;
+    color: rgb(153, 31, 51);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.one {
+    padding-left: 90px;
+    background-color: rgba(178, 65, 84, 0.77);
+    padding-top: 15px;
+    color: white;
+}
+
+.firstbut {
+    padding: 4px;
+    border: 1px solid white;
+    background-color: rgb(243, 159, 172);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.secondbut {
+    padding: 12px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.hello {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
+.theory,
+.photo {
+    display: inline-block;
+}
+
+.thirdbut {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid white;
+    background-color: rgb(158, 45, 62);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.two {
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.fourthbut {
+    padding: 4px;
+    border: 1px solid yellow;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 40px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#info {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.company {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.bio,
+.my-image {
+    display: inline-block;
+}
+
+.three {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.one-line {
+    font-size: 18px;
+
+}
+
+.main-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 450px;
+    background-color: rgba(211, 94, 113, 0.77);
+    border-radius: 50px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    display: inline-block;
+    font-size: 20px;
+    width: 26%;
+    height: 200px;
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+    padding: 10px;
+    display: inline-block;
+    width: 25%;
+    height: 190px;
+    background-color: white;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid rgba(178, 65, 84, 0.77);
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.media {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.fifthbut {
+    padding: 4px;
+    border: 1px solid yellow;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.social {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.next-line {
+    font-size: 18px;
+    text-align: center;
+}
+
+.media-photo {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.sixbut {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#img {
+    display: inline-block;
+}
+
+.insta,
+.youtube,
+.linkedin {
+    display: inline-block;
+}
+
+.videos {
+    background-color: rgba(196, 150, 25, 0.726);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sevenbut {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(211, 11, 71);
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.first {
+    padding-top: 20px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+footer {
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: rgba(178, 65, 84, 0.77);
+    height: 350px;
+}
+
+footer h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer .foot-tab {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .foot-tab a {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .paav {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.five{
+    margin-bottom: 40px;
+}
+
+.tag-video{
+    padding-top: 20px;
+}
